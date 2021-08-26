@@ -8,7 +8,7 @@ namespace Karcher_HelloWorld
      * Purpose: Initial exploration of the differences between java and C#
      * Restrictions: None
      */
-    class Program
+    class HelloWorld
     {
         /* Method: Main
          * Purpose: Initiate the Main Menu and main menu loop.
@@ -114,7 +114,7 @@ namespace Karcher_HelloWorld
                 // Exit condition for "Bad Input Loop" is false.
                 bool repeteForBadInput = false;
                 string Greeting = "Its nice to meet you " + output + ".\n";
-                string Greeting2 = "What can I do for you today?\n1) Randomize My Name\n2) fibunaccie madness\n3) Simple Encryption of my name\n4) Exit\n";
+                string Greeting2 = "What can I do for you today?\n1) Randomize My Name\n2) Fibunaccie Madness\n3) Simple Encryption of my name\n4) Exit\n";
                 FancyOutput(Greeting);
                 FancyOutput(Greeting2);
                 // Output is reset to new user input.
@@ -165,7 +165,7 @@ namespace Karcher_HelloWorld
             else if (cycle == 3)
             {
                 //Display options for non first cycle of options.
-                string Greeting = "Are there any other functions you would like to see?\n1) Randomize My Name\n2) fibunaccie madness\n3) Simple Encryption of my name\n4) Exit\n";
+                string Greeting = "Are there any other functions you would like to see?\n1) Randomize My Name\n2) Fibunaccie Madness\n3) Simple Encryption of my name\n4) Exit\n";
                 FancyOutput(Greeting);
                 // Output is reset to new user input.
                 output = Console.ReadLine();
